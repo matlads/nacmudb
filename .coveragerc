@@ -1,0 +1,5 @@
+[run]
+include = nacmudb/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
